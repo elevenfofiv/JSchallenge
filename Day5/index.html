@@ -7,16 +7,18 @@
 
   <body>
     <h1 class="title">Random Number Game</h1>
-    <form>
+    <form id="chooseNumber">
       <div>
         <span>Gererate a number between 0 and</span>
         <input class="randomNumber" type="number" min="0" />
       </div>
       <div>
-        <span>Guess the number:</span
-        ><input class="guessNumber" type="number" min="0" />
+        <span>Guess the number:</span>
+        <input class="guessNumber" type="number" min="0" />
+        <button>PLAY!!!</button>
       </div>
     </form>
+    <div id="gameResult"></div>
     <script src="src/index.js"></script>
   </body>
 </html>
